@@ -1,0 +1,18 @@
+
+<div id = "mainContainer">
+    <div id = "header">
+        <h1>{{title}}</h1>
+        <p>Welcome to {{title}}</p>
+    </div>
+    <div id = "messageArea">
+        {{#each messages}}
+        <div id = "messageForm">
+            <div>{{user}}</div>
+            <div>{{text}}</div>
+            <div>{{added}}</div>
+        </div>
+        {{/each}}
+    </div>
+    <a href = "http://localhost:3000/new">Submit Post</a>
+
+</div>
